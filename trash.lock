@@ -2,5 +2,9 @@ package: github.com/aiwantaozi/log-generator
 import:
 - package: github.com/Pallinder/go-randomdata
   version: 26f4a641b55b152ed383ba02b30b99763401ade3
+- package: github.com/sirupsen/logrus
+  version: master
 - package: github.com/urfave/cli
   version: v1.18.0
+- package: golang.org/x/sys/unix
+  version: master
